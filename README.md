@@ -12,16 +12,20 @@ Este repositorio contiene un proyecto Django llamado `myApp`, el cual incluye va
 
 ## Uso
 2. URLs y Vistas
-```django
-Inicio: /
-Vista asociada: views.inicio
-Cursos: /cursos/
-Vista asociada: views.cursos
-Profesores: /profesores/
-Vista asociada: views.profesores
-Estudiantes: /estudiantes/
-Vista asociada: views.estudiantes
-Entregables: /entregables/
-Vista asociada: views.entregables
-Crear Curso: /cursos/crear/
-Vista asociada: views.cursosForm
+- **Inicio:** `/`
+  - Vista asociada: `views.inicio`
+  
+- **Cursos:** `/cursos/`
+  - Vista asociada: `views.cursos`
+  
+- **Profesores:** `/profesores/`
+  - Vista asociada: `views.profesores`
+  
+- **Estudiantes:** `/estudiantes/`
+  - Vista asociada: `views.estudiantes`
+  
+- **Entregables:** `/entregables/`
+  - Vista asociada: `views.entregables`
+  
+- **Crear Curso:** `/cursos/crear/`
+  - Vista asociada: `views.cursosForm`
