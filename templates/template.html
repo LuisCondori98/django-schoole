@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 style="color: red;">Hola desde Django</h1>
+  <p>Mi nombre es: {{nombre}}</p>
+  <p>Mi apellido es: {{apellido}}</p>
+  <p>Fecha: {{hoy}}</p>
+
+{% if curso == "Python" %}
+
+  <h1 style="color: red;">Curso {{curso}}</h1>
+
+{% elif curso == "React" %}
+
+  <h1 style="color: blue;">Curso {{curso}}</h1>
+
+{% else %}
+
+  <h1 style="color:chartreuse">Curso {{curso}}</h1>
+
+{% endif %}
+
+  <ul>
+    {% for n in Curso %}
+
+    <li style="list-style: none;">{{n}}</li>
+
+    {% endfor%}
+  </ul>
+</body>
+</html>

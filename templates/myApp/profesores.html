@@ -1,0 +1,25 @@
+{% extends "myApp/index.html" %}
+
+{% load static %}
+
+{% block contenidocambio %}
+
+<style>
+.boton {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  padding: 11px;
+  transition: all ease-in-out .2s;
+}
+.boton:hover {
+  background-color: rgb(48, 48, 48);
+}
+</style>
+<body>
+  <h1 style="text-align: center">Profesores</h1>
+  <button class="btn btn-primary">Cargar Profesor</button>
+  <button class="boton">Cargar Profesor</button>
+</body>
+
+{% endblock %}
